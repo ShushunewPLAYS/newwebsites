@@ -9,15 +9,19 @@ function bestSport () {
     alert("WRONG BASKETBALL RULES")
   }
 
+}
+
+function bestFood () {
   if(food === "fries"){
     alert("Fries are the best")
   } else{
     alert("Wrong fries are the best!")
   }
-  if(math === "1+1 "){
+}
+
+function math () {  if(math === "1+1 "){
       alert("I agree")
   } else{
     alert("I disagrees")
   }
-
 }
