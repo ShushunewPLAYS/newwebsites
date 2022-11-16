@@ -1,6 +1,7 @@
 var sports = prompt("What is the best sport?");
 var food = prompt("What is your favorite food?");
 var math = prompt("What is the most advanced math youve seen")
+var house = prompt("What is your dream house");
 
 function bestSport () {
   if(sports === "basketball"){
@@ -23,5 +24,13 @@ function math () {  if(math === "1+1 "){
       alert("I agree")
   } else{
     alert("I disagrees")
+  }
+}
+
+function house () {
+  if(house === "mansion"){
+    alert("The mansion is the best option!")
+  } else{
+    alert("Meh Mid tbh")
   }
 }
