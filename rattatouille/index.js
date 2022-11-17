@@ -2,6 +2,7 @@ var sports = prompt("What is the best sport?");
 var food = prompt("What is your favorite food?");
 var math = prompt("What is the most advanced math youve seen")
 var house = prompt("What is your dream house");
+var santa = prompt("Do you believe in santa")
 
 function bestSport () {
   if(sports === "basketball"){
@@ -32,5 +33,13 @@ function house () {
     alert("The mansion is the best option!")
   } else{
     alert("Meh Mid tbh")
+  }
+}
+
+function santa () {
+  if(santa === "Yes"){
+    alert("Good luck...")
+  } else{
+    alert("Santa is real!")
   }
 }
