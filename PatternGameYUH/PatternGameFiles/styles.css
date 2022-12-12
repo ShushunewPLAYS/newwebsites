@@ -31,20 +31,20 @@ body {
   opacity: 0.8;
 }
 
-.red {
-  background-color: red;
+.teal {
+  background-color: teal;
 }
 
-.green {
-  background-color: green;
+.purple {
+  background-color: purple;
 }
 
-.blue {
-  background-color: blue;
+.navy {
+  background-color: navy;
 }
 
-.yellow {
-  background-color: yellow;
+.magenta {
+  background-color: magenta;
 }
 
 .pressed {
